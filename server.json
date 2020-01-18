@@ -1,0 +1,81 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "title": "Brasileira",
+      "categorie_url": "asasas"
+    },
+    {
+      "id": 2,
+      "title": "Saudável",
+      "categorie_url": "asasas"
+    },
+    {
+      "id": 3,
+      "title": "Lanches",
+      "categorie_url": "asasas"
+    },
+    {
+      "id": 4,
+      "title": "Carnes",
+      "categorie_url": "asasas"
+    },
+    {
+      "id": 5,
+      "title": "Italiana",
+      "categorie_url": "asasas"
+    },
+    {
+      "id": 6,
+      "title": "Pizza",
+      "categorie_url": "asasas"
+    },
+    {
+      "id": 7,
+      "title": "Japonesa",
+      "categorie_url": "asasas"
+    }
+  ],
+  "restaurants": [
+    {
+      "id": 1,
+      "restaurant_url": "https://www.infomoney.com.br/wp-content/uploads/2019/06/habibs.png?fit=577%2C336&quality=75&strip=all",
+      "title": "Habibs",
+      "categories": [
+        "Esfihas, Pizza"
+      ]
+    },
+    {
+      "id": 2,
+      "restaurant_url": "http://partageshoppingmossoro.com.br/media/MC-Donalds-1-720x500.png",
+      "title": "McDonalds's",
+      "categories": [
+        "Esfihas, Pizza, Lanches, Sorvetes"
+      ]
+    },
+    {
+      "id": 3,
+      "restaurant_url": "http://i0.statig.com.br/fw/km/qb/7i/kmqb7imtkgnkz3l5kbbxp2ir.jpg",
+      "title": "Burguer King",
+      "categories": [
+        "Lanches"
+      ]
+    },
+    {
+      "id": 4,
+      "restaurant_url": "http://hammertime.com.br/wp-content/uploads/2013/08/abri-uma-franquia-de-pizzaria-dominos-600x363.jpg",
+      "title": "Dominus",
+      "categories": [
+        "Pizzas"
+      ]
+    },
+    {
+      "id": 5,
+      "restaurant_url": "http://www.sergel.com.br/images/lojas/chapadao/01.png",
+      "title": "Sergel",
+      "categories": [
+        "Sorvetes"
+      ]
+    }
+  ]
+}
