@@ -3,79 +3,173 @@
     {
       "id": 1,
       "title": "Brasileira",
-      "categorie_url": "asasas"
+      "categorie_url": "https://dicasdaflorida.com.br/wp-content/uploads/2014/07/comida-brasileira-restaurante-brasileiro.jpg"
     },
     {
       "id": 2,
       "title": "Saudável",
-      "categorie_url": "asasas"
+      "categorie_url": "https://pagoquandopuder.com.br/wp-content/uploads/2019/09/Comida-saud%C3%A1vel-n%C3%A3o-%C3%A9-mais-cara-740x493.jpg"
     },
     {
       "id": 3,
       "title": "Lanches",
-      "categorie_url": "asasas"
+      "categorie_url": "https://img.stpu.com.br/?img=https://s3.amazonaws.com/pu-mgr/default/a0R0f00000zTEo1EAG/5b3a7b01e4b0f1518ff176df.jpg&w=710&h=462"
     },
     {
       "id": 4,
       "title": "Carnes",
-      "categorie_url": "asasas"
+      "categorie_url": "https://supermercadosrondon.com.br/guiadecarnes/images/postagens/as_7_melhores_carnes_para_churrasco_21-05-2019.jpg"
     },
     {
       "id": 5,
       "title": "Italiana",
-      "categorie_url": "asasas"
+      "categorie_url": "http://www.infohoje.com.br/wp-content/uploads/2014/06/culinaria-italiana.png"
     },
     {
       "id": 6,
       "title": "Pizza",
-      "categorie_url": "asasas"
+      "categorie_url": "https://i.catracalivre.com.br/a_J8TcUGc8DgQKYpalBcY5EA2fc=/https%3A%2F%2Fcatracalivre.com.br%2Fwp-content%2Fuploads%2F2012%2F09%2Frodizio-pizza-e1347417630118.jpg"
     },
     {
       "id": 7,
       "title": "Japonesa",
-      "categorie_url": "asasas"
+      "categorie_url": "https://www.saboravida.com.br/wp-content/uploads/2019/07/conheca-os-beneficios-da-culinaria-japonesa.jpg"
     }
   ],
   "restaurants": [
     {
       "id": 1,
-      "restaurant_url": "https://www.infomoney.com.br/wp-content/uploads/2019/06/habibs.png?fit=577%2C336&quality=75&strip=all",
+      "restaurant_url": "https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201801241007_74ed657c-ff28-4357-b6b2-30c53390b5db.jpg",
       "title": "Habibs",
+      "star": "",
       "categories": [
-        "Esfihas, Pizza"
-      ]
+        "Esfihas & Pizza"
+      ],
+      "delay": "30-60 min",
+      "distance": "35 km"
     },
     {
       "id": 2,
-      "restaurant_url": "http://partageshoppingmossoro.com.br/media/MC-Donalds-1-720x500.png",
+      "restaurant_url": "https://d701vexhkz032.cloudfront.net/bundles/front/media/images/favicons/favicon-512.png",
       "title": "McDonalds's",
+      "star": 4.5,
       "categories": [
-        "Esfihas, Pizza, Lanches, Sorvetes"
-      ]
+        "Esfihas & Pizza"
+      ],
+      "delay": "10-20 min",
+      "distance": "10.0 km"
     },
     {
       "id": 3,
-      "restaurant_url": "http://i0.statig.com.br/fw/km/qb/7i/kmqb7imtkgnkz3l5kbbxp2ir.jpg",
+      "restaurant_url": "https://pbs.twimg.com/profile_images/1146068149445332993/x_RXPQKj.png",
       "title": "Burguer King",
+      "star": 4.6,
       "categories": [
         "Lanches"
-      ]
+      ],
+      "delay": "60-120 min",
+      "distance": "8.2 km"
     },
     {
       "id": 4,
-      "restaurant_url": "http://hammertime.com.br/wp-content/uploads/2013/08/abri-uma-franquia-de-pizzaria-dominos-600x363.jpg",
+      "restaurant_url": "https://clipartart.com/images/dominos-logo-clipart-5.png",
       "title": "Dominus",
+      "star": 3.7,
       "categories": [
         "Pizzas"
-      ]
+      ],
+      "delay": "45-75 min",
+      "distance": "120 km"
     },
     {
       "id": 5,
-      "restaurant_url": "http://www.sergel.com.br/images/lojas/chapadao/01.png",
+      "restaurant_url": "http://www.sergel.com.br/images/logo-rodape1.png",
       "title": "Sergel",
+      "star": 5,
       "categories": [
         "Sorvetes"
-      ]
+      ],
+      "delay": "5-25 min",
+      "distance": "5 km"
+    }
+  ],
+  "suggestions": [
+    {
+      "id": 1,
+      "title": "Bebidas",
+      "sugg_url": "https://p2.trrsf.com/image/fget/cf/460/0/images.terra.com/2019/10/21/pina-colada.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Promoções",
+      "sugg_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8BsQ0ZcDXQTHBz0SZrFLmppiHkYK0KSGx97bF2Tpz0FFP_wsqHA&s"
+    },
+    {
+      "id": 3,
+      "title": "Café & Padaria",
+      "sugg_url": "http://famagusta-gazette.com/wp-content/uploads/2019/08/coffee-cafe.png"
+    },
+    {
+      "id": 4,
+      "title": "Doces",
+      "sugg_url": "https://images.immediate.co.uk/production/volatile/sites/2/2019/04/Choc-Fudge-Cake-b2d1909.jpg?quality=45&resize=620,413"
+    },
+    {
+      "id": 5,
+      "title": "Doação",
+      "sugg_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1FlDyLkEvvGLM-mu_WkRNzRpiMYq19YOfK7P4siZdMTyCBqjL&s"
+    }
+  ],
+  "promotions": [
+    {
+      "id": 1,
+      "title": "Promos 4,99",
+      "promo_url": "https://static-images.ifood.com.br/image/upload/f_auto,t_high/discoveries/ifood-capas-tudo-por-10-reais.png"
+    },
+    {
+      "id": 2,
+      "title": "Restaurants",
+      "promo_url": "https://static-images.ifood.com.br/image/upload/f_auto,t_high/discoveries/ifood-capas-novas-super-restaurantes2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Ifood Selection",
+      "promo_url": "https://static-images.ifood.com.br/image/upload/f_auto,t_high/discoveries/ifood-capas-novas-selecao-ifood.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Free delivery",
+      "promo_url": "https://static-images.ifood.com.br/image/upload/f_auto,t_high/discoveries/ifood-capas-novas-taxa-gratis.jpg"
+    }
+  ],
+  "offers": [
+    {
+      "id": 1,
+      "title": "001 - burguer costela especial",
+      "offer_url": "https://i0.wp.com/www.tvcommercialspots.com/wp-content/uploads/2019/11/Burger-King-2-for-10-Meal-Deal.jpg?resize=640%2C360&ssl=1",
+      "price": 18.90,
+      "newPrice": 15.00
+    },
+    {
+      "id": 2,
+      "title": "002 - pizza italiana especial",
+      "offer_url": "https://georgespizzasteakhouse.files.wordpress.com/2013/03/chicken_fajita_lr-1.jpg",
+      "price": 18.90,
+      "newPrice": 12.00
+    },
+    {
+      "id": 3,
+      "title": "003 - combo hambumber, bata e maccafé ",
+      "offer_url": "https://i2-prod.birminghammail.co.uk/incoming/article16101897.ece/ALTERNATES/s615/6_McDonalds-main-image.jpg",
+      "price": 36.90,
+      "newPrice": 25.70
+    },
+    {
+      "id": 4,
+      "title": "004 - picanha na brasa",
+      "offer_url": "https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2018/06/19/carne-churrasco.jpg",
+      "price": 25.90,
+      "newPrice": 18.00
     }
   ]
 }
