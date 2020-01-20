@@ -1,4 +1,3 @@
-export const { format: formatPrice } = new Intl.NumberFormat('pt-BR', {
-  style: 'currency',
-  currency: 'BRL',
-});
+import numeral from 'numeral';
+
+export const formatNumber = (number) => numeral(number).format('$,0.00');

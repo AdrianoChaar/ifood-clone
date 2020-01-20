@@ -51,13 +51,14 @@ const Routes = createAppContainer(
       screen: createStackNavigator({
         Pedidos: {
           screen: createMaterialTopTabNavigator({
-            Requests,
             PrevRequests,
+            Requests,
           }, {
             navigationOptions: {
               title: 'PEDIDOS',
+              headerTitleAlign: 'center',
               headerTitleStyle: {
-                color: '#333'
+                color: '#333',
               },
               headerStyle: {
                 shadowRadius: 0,
@@ -89,6 +90,7 @@ const Routes = createAppContainer(
     Perfil: {
       screen: createStackNavigator({
         Profile,
+        Wallet,
       }, {
         navigationOptions: {
           tabBarIcon: ({ tintColor }) => (

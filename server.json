@@ -38,6 +38,31 @@
       "id": 7,
       "title": "Japonesa",
       "categorie_url": "https://www.saboravida.com.br/wp-content/uploads/2019/07/conheca-os-beneficios-da-culinaria-japonesa.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Doces & Bolos",
+      "categorie_url": "https://www.revide.com.br/media/cache/27/45/2745cbacf166e7c55278396858c1466b.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Bebidas",
+      "categorie_url": "https://p2.trrsf.com/image/fget/cf/460/0/images.terra.com/2018/10/05/cerveja-engorda.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Salgados",
+      "categorie_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1stncwll-_pPusvZ1gP1YmqiVwY3WLT-nQh02okhh1BHRs3ARvA&s"
+    },
+    {
+      "id": 11,
+      "title": "Congelados",
+      "categorie_url": "https://i1.wp.com/frimaca.com/wp-content/uploads/2017/05/Mauro-Libi-Crestani-dieta-facil-alimentos-congelados.jpg?fit=700%2C394&ssl=1"
+    },
+    {
+      "id": 12,
+      "title": "Marmitas",
+      "categorie_url": "https://media-cdn.tripadvisor.com/media/photo-s/0f/48/0c/af/marmita-executiva.jpg"
     }
   ],
   "restaurants": [
@@ -152,14 +177,14 @@
       "title": "001 - burguer costela especial",
       "offer_url": "https://i0.wp.com/www.tvcommercialspots.com/wp-content/uploads/2019/11/Burger-King-2-for-10-Meal-Deal.jpg?resize=640%2C360&ssl=1",
       "price": 18.90,
-      "newPrice": 15.00
+      "newPrice": 15.50
     },
     {
       "id": 2,
       "title": "002 - pizza italiana especial",
       "offer_url": "https://georgespizzasteakhouse.files.wordpress.com/2013/03/chicken_fajita_lr-1.jpg",
       "price": 18.90,
-      "newPrice": 12.00
+      "newPrice": 12.30
     },
     {
       "id": 3,
@@ -173,7 +198,33 @@
       "title": "004 - picanha na brasa",
       "offer_url": "https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2018/06/19/carne-churrasco.jpg",
       "price": 25.90,
-      "newPrice": 18.00
+      "newPrice": 18.20
+    }
+  ],
+  "purchases": [
+    {
+      "id": 1,
+      "date": "Seg - 20 de janeiro de 2020",
+      "restaurant_name": "McDonalds's - Avenida Brasil",
+      "restaurant_url": "https://d701vexhkz032.cloudfront.net/bundles/front/media/images/favicons/favicon-512.png",
+      "order_number": 7854,
+      "order": "1 McChicken por R$23,90"
+    },
+    {
+      "id": 2,
+      "date": "Sex - 29 de novembro de 2019",
+      "restaurant_name": "Habibs - Shopping Dom Pedro",
+      "restaurant_url": "https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201801241007_74ed657c-ff28-4357-b6b2-30c53390b5db.jpg",
+      "order_number": 6302,
+      "order": "15 Bib'sfiha de carne por R$0,79"
+    },
+    {
+      "id": 3,
+      "date": "Sab - 15 de setembro de 2019",
+      "restaurant_name": "Burguer King - Avenida Brasil",
+      "restaurant_url": "https://logospng.org/wp-content/uploads/burger-king.png",
+      "order_number": 6302,
+      "order": "2 Clássicos por R$4,90"
     }
   ]
 }

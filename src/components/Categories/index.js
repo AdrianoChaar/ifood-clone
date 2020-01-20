@@ -25,7 +25,7 @@ export default function Categories() {
         {categories.map(item => (
           <Item key={item.id}>
             <ItemImage source={{ uri: item.categorie_url}} />
-            <ItemTitle>{item.title}</ItemTitle>
+              <ItemTitle>{item.title}</ItemTitle>
           </Item>
         ))}
       </CategoriesList>

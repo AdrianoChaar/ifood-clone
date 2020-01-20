@@ -34,17 +34,21 @@ export default function Wallet() {
       </Panel>
 
       <Options horizontal={true}>
-        <Option>
+        <Option onPress={() => {}}>
           <MaterialIcons name="credit-card" size={35} color="#999" />
           <Message>Formas de pagamento</Message>
         </Option>
-        <Option>
+        <Option onPress={() => {}}>
         <MaterialIcons name="card-giftcard" size={35} color="#999" />
           <Message>Resgatar IFood Card</Message>
         </Option>
-        <Option>
+        <Option onPress={() => {}}>
         <MaterialIcons name="store" size={35} color="#999" />
-          <Message>Onde usar</Message>
+          <Message>Por onde usar</Message>
+        </Option>
+        <Option onPress={() => {}}>
+        <MaterialCommunityIcons name="help-circle" size={35} color="#999" />
+          <Message>Preciso de Ajuda</Message>
         </Option>
       </Options>
     </Container>

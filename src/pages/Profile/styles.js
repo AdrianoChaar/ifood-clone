@@ -1,7 +1,9 @@
 import styled from 'styled-components/native';
 import { StyleSheet } from 'react-native'
 
-export const Container = styled.ScrollView`
+export const Container = styled.ScrollView.attrs({
+  showsVerticalScrollIndicator: false,
+})`
   flex: 1;
   background: #FFF;
   /* padding: 0 20px; */
@@ -48,9 +50,9 @@ export const AdditionalOption = styled.TouchableOpacity`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-top: 5px;
+  margin-top: 10px;
   padding: 10px 20px;
-  border: ${StyleSheet.hairlineWidth}px #eee;
+  border: 1px #eee;
 `;
 
 export const OptionName = styled.Text`

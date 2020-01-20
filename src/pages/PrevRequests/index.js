@@ -1,14 +1,17 @@
 import React from 'react';
-import { View } from 'react-native';
 
-// import { Container } from './styles';
+import { Container } from './styles';
+
+import Purchases from '../../components/Purchases';
 
 export default function PrevRequests() {
   return (
-    <View />
+    <Container>
+      <Purchases />
+    </Container>
   );
 }
 
 PrevRequests.navigationOptions = {
-  title: 'EM ANDAMENTO'
+  title: 'ANTERIORES'
 }

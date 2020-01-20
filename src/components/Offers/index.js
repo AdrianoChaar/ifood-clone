@@ -4,7 +4,7 @@ import api from '../../services/api';
 
 import { MaterialIcons } from '@expo/vector-icons';
 
-import { formatPrice } from '../../utils/formatNumber';
+import { formatNumber } from '../../utils/formatNumber';
 
 import { Container,
     Header,
@@ -34,8 +34,9 @@ export default function Offers() {
         id: offer.id,
         offer_url: offer.offer_url,
         title: offer.title,
-        newPrice: formatPrice(offer.newPrice),
-        price: formatPrice(offer.price),
+        newPrice: formatNumber(offer.newPrice),
+        price: formatNumber(offer.price),
+        // newPrice: `R$: ${offer.newPrice}`,
       }))
 
       setOffers(data);

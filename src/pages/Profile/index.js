@@ -17,20 +17,20 @@ import { Container,
   } from './styles';
 
 
-export default function Profile() {
+export default function Profile({ navigation }) {
   return (
     <Container>
       <OptionsList>
           <Option onPress={() => {}}>
-            <MaterialIcons name="notifications" size={35} color="#333" />
+            <MaterialCommunityIcons name="bell-outline" size={35} color="#333" />
             <Info>
               <Title>Notificações</Title>
               <Description>Minha central de notificações</Description>
             </Info>
               <MaterialIcons name="keyboard-arrow-right" color="#999999" size={20} />
           </Option>
-          <Option onPress={() => {}}>
-            <MaterialIcons name="account-balance-wallet" size={35} color="#333" />
+          <Option onPress={() => navigation.navigate('Wallet')}>
+            <MaterialCommunityIcons name="wallet-outline" size={35} color="#333" />
             <Info>
               <Title>Carteira</Title>
               <Description>Meu saldo e QR code</Description>
@@ -38,7 +38,7 @@ export default function Profile() {
               <MaterialIcons name="keyboard-arrow-right" color="#999999" size={20} />
           </Option>
           <Option onPress={() => {}}>
-            <MaterialIcons name="local-offer" size={35} color="#333" />
+            <MaterialCommunityIcons name="ticket-outline" size={35} color="#333" />
             <Info>
               <Title>Cupons</Title>
               <Description>Meus cupons de desconto</Description>
@@ -46,7 +46,7 @@ export default function Profile() {
               <MaterialIcons name="keyboard-arrow-right" color="#999999" size={20} />
           </Option>
           <Option onPress={() => {}}>
-            <MaterialIcons name="favorite-border" size={35} color="#333" />
+            <MaterialCommunityIcons name="heart-outline" size={35} color="#333" />
             <Info>
               <Title>Favoritos</Title>
               <Description>Meus locais favoritos</Description>
@@ -54,7 +54,7 @@ export default function Profile() {
               <MaterialIcons name="keyboard-arrow-right" color="#999999" size={20} />
           </Option>
           <Option onPress={() => {}}>
-            <MaterialIcons name="credit-card" size={35} color="#333" />
+            <MaterialCommunityIcons name="credit-card" size={35} color="#333" />
             <Info>
               <Title>Formas de pagamento</Title>
               <Description>Minhas formas de pagamento</Description>
@@ -62,7 +62,7 @@ export default function Profile() {
               <MaterialIcons name="keyboard-arrow-right" color="#999999" size={20} />
           </Option>
           <Option onPress={() => {}}>
-            <MaterialIcons name="local-shipping" size={35} color="#333" />
+            <MaterialCommunityIcons name="map-marker" size={35} color="#333" />
             <Info>
               <Title>Endereços</Title>
               <Description>Meus endereços de entrega</Description>
