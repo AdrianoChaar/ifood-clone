@@ -4,7 +4,10 @@ export const Container = styled.View`
   padding: 10px 20px;
 `;
 
-export const AddressButton = styled.TouchableOpacity``;
+export const AddressButton = styled.TouchableOpacity`
+  display: flex;
+  flex-direction: row;
+`;
 
 export const Location = styled.Text`
   color: #333;

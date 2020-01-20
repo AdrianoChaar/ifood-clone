@@ -64,7 +64,7 @@ export default function Offers() {
             <ItemPrice>
               <Price>{offer.newPrice}</Price>
               <OldPrice>{offer.price}</OldPrice>
-              <MaterialIcons name="local-offer" size={20} color="#000" />
+              <MaterialIcons name="local-offer" size={15} color="#000" />
             </ItemPrice>
           </ItemInfo>
         </Item>

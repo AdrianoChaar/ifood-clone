@@ -1,5 +1,9 @@
 {
-  "categories": [
+  "profile": {
+    "name": "Leonardo Barbosa",
+    "avatar_url": "https://cdn.imgbin.com/25/15/2/imgbin-computer-icons-avatar-social-media-blog-font-awesome-avatar-X2JH6eX8zi1J01W8VN1gyhW6B.jpg"
+  },
+   "categories": [
     {
       "id": 1,
       "title": "Brasileira",

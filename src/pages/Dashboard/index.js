@@ -2,6 +2,8 @@ import React from 'react';
 
 import { Container } from './styles';
 
+import { withNavigationFocus } from 'react-navigation';
+
 import Address from '../../components/Address';
 import Input from '../../components/Input';
 import Coupon from '../../components/Coupon';
@@ -11,7 +13,10 @@ import Offers from '../../components/Offers';
 import Categories from '../../components/Categories';
 import Restaurants from '../../components/Restaurants';
 
-export default function Dashboard() {
+import HeaderLeft from '../../components/Header/HeaderLeft';
+import HeaderRight from '../../components/Header/HeaderRight';
+
+function Dashboard() {
   return (
     <Container>
       <Address />
@@ -25,3 +30,20 @@ export default function Dashboard() {
     </Container>
   );
 }
+
+Dashboard.navigationOptions = {
+  headerTitleStyle: {
+    display: 'none',
+  },
+  headerStyle: {
+    height: 70,
+  },
+    headerRight: () => (
+     <HeaderRight />
+    ),
+    headerLeft: () => (
+     <HeaderLeft />
+    ),
+ }
+
+export default withNavigationFocus(Dashboard);

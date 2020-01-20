@@ -1,10 +1,12 @@
 import styled from 'styled-components/native';
 
 export const Container = styled.View`
-  margin: 30px 0 0 20px;
+  margin: 30px 0px;
 `;
 
-export const Header = styled.View``;
+export const Header = styled.View`
+  margin-left: 20px;
+`;
 
 export const Title = styled.Text`
   font-size: 23px;
@@ -15,6 +17,7 @@ export const CategoriesList = styled.ScrollView.attrs({
   showsHorizontalScrollIndicator: false,
 })`
   margin-top: 10px;
+  padding-left: 20px;
 `;
 
 export const Item = styled.TouchableOpacity`

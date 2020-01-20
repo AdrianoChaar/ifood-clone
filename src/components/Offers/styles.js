@@ -3,7 +3,7 @@ import styled from 'styled-components/native';
 import { red } from '../../utils/colors';
 
 export const Container = styled.View`
-  margin: 0 0 0 20px;
+  margin: 20px 0;
 `;
 
 export const Header = styled.View`
@@ -11,7 +11,7 @@ export const Header = styled.View`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin: 15px 10px 15px 0;
+  margin: 0px 10px 15px 20px;
 `;
 
 export const Info = styled.View``;
@@ -34,7 +34,7 @@ export const SeeMoreText = styled.Text`
 export const OfferList = styled.ScrollView.attrs({
   showsHorizontalScrollIndicator: false
 })`
-  /* margin-left: 20px; */
+  padding-left: 20px;
 `;
 
 export const Item = styled.TouchableOpacity`

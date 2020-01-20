@@ -8,3 +8,7 @@ export default function Requests() {
     <View />
   );
 }
+
+Requests.navigationOptions = {
+  title: 'ANTERIORES'
+}

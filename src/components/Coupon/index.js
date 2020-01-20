@@ -2,12 +2,14 @@ import React from 'react';
 
 import { MaterialIcons } from '@expo/vector-icons';
 
+import { withNavigation } from 'react-navigation';
+
 import { CouponButton, Divisor, Logo, Content, CouponInfo, Title, Validity } from './styles';
 import { red } from '../../utils/colors';
 
-export default function Coupon() {
+function Coupon({ navigation }) {
   return (
-    <CouponButton>
+    <CouponButton onPress={() => {}}>
       <Divisor>
         <Content>
           <Logo />
@@ -21,3 +23,5 @@ export default function Coupon() {
     </CouponButton>
   );
 }
+
+export default withNavigation(Coupon);
