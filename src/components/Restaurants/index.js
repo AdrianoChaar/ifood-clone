@@ -20,7 +20,7 @@ import {
 
 import api from '../../services/api';
 
-export default function Restaurants() {
+export default function Restaurants({ title, display }) {
   const [restaurants, setRestaurants ] = useState([]);
 
   useEffect(() => {
@@ -34,8 +34,8 @@ export default function Restaurants() {
   
   return (
     <Container>
-      <Header>
-        <Title>Restaurantes</Title>
+      <Header display={display}>
+        <Title >{title}</Title>
       </Header>
 
       <RestaurantList>

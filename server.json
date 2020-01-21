@@ -152,27 +152,31 @@
   "promotions": [
     {
       "id": 1,
+      "categorie": "PROMOÇÕES POR R$4,99",
       "title": "Promos 4,99",
       "promo_url": "https://static-images.ifood.com.br/image/upload/f_auto,t_high/discoveries/ifood-capas-tudo-por-10-reais.png",
       "menu_url": "https://i.ibb.co/Fx6fbCF/Frame-1-1.png"
     },
     {
       "id": 2,
+      "categorie": "OS MELHORES DO IFOOD",
       "title": "Restaurants",
       "promo_url": "https://static-images.ifood.com.br/image/upload/f_auto,t_high/discoveries/ifood-capas-novas-super-restaurantes2.jpg",
       "menu_url": "https://i.ibb.co/6bzPd9H/Frame-2.png"
     },
     {
       "id": 3,
+      "categorie": "JANTAR IFOOD",
       "title": "Ifood Selection",
       "promo_url": "https://static-images.ifood.com.br/image/upload/f_auto,t_high/discoveries/ifood-capas-novas-jantar10-2.jpg",
       "menu_url": "https://i.ibb.co/bJpf9K5/Group-2.png"
     },
     {
       "id": 4,
+      "categorie": "TAXA NA FAIXA",
       "title": "Free delivery",
       "promo_url": "https://static-images.ifood.com.br/image/upload/f_auto,t_high/discoveries/ifood-capas-novas-taxa-gratis.jpg",
-      "menu_url": "https://i.ibb.co/R4h7gFx/Frame-5.png"
+      "menu_url": "https://i.ibb.co/qrgG2QJ/Group-4.png"
     }
   ],
   "offers": [

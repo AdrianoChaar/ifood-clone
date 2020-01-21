@@ -26,7 +26,7 @@ function Dashboard() {
       <Promotions />
       <Offers/>
       <Categories />
-      <Restaurants />
+      <Restaurants title="Restaurantes" display={true}/>
     </Container>
   );
 }

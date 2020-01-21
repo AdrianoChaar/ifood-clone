@@ -4,7 +4,9 @@ export const Container = styled.View`
   margin: 20px 0 20px 20px;
 `;
 
-export const Header = styled.View``;
+export const Header = styled.View`
+  display: ${props => props.display ? 'flex' : 'none'};
+`;
 
 export const Title = styled.Text`
   font-size: 23px;
@@ -33,6 +35,7 @@ export const ItemImage = styled.Image`
 
 export const ItemInfo = styled.View`
   margin-left: 15px;
+  
 `;
 
 export const ItemTitle = styled.Text`

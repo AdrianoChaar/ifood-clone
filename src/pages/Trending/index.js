@@ -1,32 +1,35 @@
 import React from 'react';
 
-import { Container, Image, BackButton } from './styles';
+import { 
+  Container,
+  Banner,
+  BackButton,
+  ExportButton
+  } from './styles';
 
-import { MaterialIcons } from '@expo/vector-icons';
+import Restaurants from '../../components/Restaurants';
+
+import { MaterialIcons, MaterialCommunityIcons } from '@expo/vector-icons';
 
 export default function Trending({ navigation }) {
   return (
     <Container>
+      {/* <Banner source={{uri: navigation.getParam('promo').menu_url}} /> */}
+      <Restaurants title="" />
     </Container>
   );
 }
 
 Trending.navigationOptions = ({navigation}) => ({
-  headerBackground: () => (
-    <Container>
-      <Image source={{uri: navigation.getParam('promo').menu_url}} />
-    </Container>
-  ),
   headerLeft: () => (
     <BackButton onPress={() => navigation.goBack()}>
-      <MaterialIcons name="keyboard-arrow-left" color="#FFF" size={35} />
+      <MaterialIcons name="keyboard-arrow-left" color="#F00000" size={35} />
     </BackButton>
   ),
-  headerTitleStyle: {
-    display: 'none',
-  },
-  // headerBackTitleVisible: false,
-  headerStyle: {
-    height: 150,
-  }
+  title: `${navigation.getParam('promo').categorie}`,
+  headerRight: () => (
+    <ExportButton>
+      <MaterialCommunityIcons name="export-variant" color="#F00000" size={25} />
+    </ExportButton>
+  ),
 })
