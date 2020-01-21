@@ -2,6 +2,8 @@
   <img src="https://user-images.githubusercontent.com/54908803/72811670-dd7fca80-3c3e-11ea-98b1-1d993903f383.png" width="600" />
 </p>
 
+# Ferramentas
+
 <p>Este projeto foi desenvolvido utilizando das seguintes tecnologias:</p>
 
 - [React Native](https://facebook.github.io/react-native/)
@@ -15,6 +17,22 @@
 - [NumeralJs](https://github.com/adamwdraper/Numeral-js)
 - [VSCode](https://code.visualstudio.com/)
 - [Material Icons](https://material.io/resources/icons/?style=baseline)
+
+# Imagens do projeto
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/54908803/72817515-aa423900-3c48-11ea-8a2b-a102a8eb39cd.png" />
+</p>
+<br/>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/54908803/72817571-c5ad4400-3c48-11ea-9d10-015db2c6576b.png" />
+</p>
+<br/>
+<p align="center">
+  <img width="700" src="https://user-images.githubusercontent.com/54908803/72817637-e1b0e580-3c48-11ea-955a-2f0b472a82f2.png" />
+</p>
+
+# Como executar o projeto
 
 <p>Executando o projeto:</p>
 
