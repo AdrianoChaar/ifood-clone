@@ -123,6 +123,19 @@ móveis.
 </p>
 
 <p>
+  Depois disso é só aguardar o expo carregar o aplicativo!
+</p>
+
+
+<p>
+  Testado no Android & IOS
+</p>
+
+<p>
+  <img src="https://user-images.githubusercontent.com/54908803/72819629-56d1ea00-3c4c-11ea-8d6e-ca0d9a15d9c8.png" />
+</p>
+
+<p>
   Thank you :)
 </p>
 
