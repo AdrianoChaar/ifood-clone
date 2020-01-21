@@ -47,7 +47,7 @@ export default function Purchases() {
               <RestaurantImage source={{uri: item.restaurant_url}} />
               <Info>
                 <Name>{item.restaurant_name}</Name>
-                <OrderNumber>Pedido entregue{item.order_number}</OrderNumber>
+                <OrderNumber>Pedido entregue {item.order_number}</OrderNumber>
               </Info>
             </Restaurant>
             <OrderDetails>

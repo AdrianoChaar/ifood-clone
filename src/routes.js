@@ -12,6 +12,8 @@ import PrevRequests from './pages/PrevRequests';
 import Requests from './pages/Requests';
 import Profile from './pages/Profile';
 import Wallet from './pages/Wallet';
+import Item from './pages/Item';
+import Trending from './pages/Trending';
 
 const Menu = createMaterialTopTabNavigator({
   Entrega: {
@@ -27,7 +29,9 @@ const Routes = createAppContainer(
     Início: {
       screen: createStackNavigator({
         Dashboard,
-        Wallet
+        Wallet,
+        Item,
+        Trending,
       }, {
         navigationOptions: {
           tabBarIcon: ({ tintColor }) => (

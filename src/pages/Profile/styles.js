@@ -50,13 +50,13 @@ export const AdditionalOption = styled.TouchableOpacity`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-top: 10px;
+  margin: 5px 0;
   padding: 10px 20px;
   border: 1px #eee;
 `;
 
 export const OptionName = styled.Text`
   margin-left: 25px;
-  color: #cecece;
+  color: #ccc;
   font-size: 18px;
 `;

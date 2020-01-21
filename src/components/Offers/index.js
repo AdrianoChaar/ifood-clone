@@ -2,6 +2,8 @@ import React, { useState, useEffect} from 'react';
 
 import api from '../../services/api';
 
+import { withNavigation } from 'react-navigation';
+
 import { MaterialIcons } from '@expo/vector-icons';
 
 import { formatNumber } from '../../utils/formatNumber';
@@ -21,9 +23,9 @@ import { Container,
     ItemPrice,
     OldPrice,
     Price
-     } from './styles';
+    } from './styles';
 
-export default function Offers() {
+function Offers({ navigation }) {
   const [offers, setOffers] = useState([]);
 
   useEffect(() => {
@@ -36,13 +38,20 @@ export default function Offers() {
         title: offer.title,
         newPrice: formatNumber(offer.newPrice),
         price: formatNumber(offer.price),
-        // newPrice: `R$: ${offer.newPrice}`,
+        ingredients: offer.ingredients,
+        delivery: offer.delivery,
+        delay: offer.delay,
+        icon: offer.icon
       }))
 
       setOffers(data);
     }
     loadOffers();
   }, [])
+
+  function handleNavigate(item) {
+    navigation.navigate('Item', {item})
+  }
 
   return (
     <Container>
@@ -58,7 +67,7 @@ export default function Offers() {
 
       <OfferList horizontal={true}>
         {offers.map(offer => (
-        <Item key={offer.id}>
+        <Item key={offer.id} onPress={() => handleNavigate(offer)}>
           <ItemImage source={{ uri: offer.offer_url}} />
           <ItemInfo>
             <ItemTitle>{offer.title}</ItemTitle>
@@ -74,3 +83,5 @@ export default function Offers() {
     </Container>
   );
 }
+
+export default withNavigation(Offers);

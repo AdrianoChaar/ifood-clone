@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
 
+import { withNavigation } from 'react-navigation';
+
 import { PromoList, Item, PromoImage } from './styles';
 
 import api from '../../services/api';
 
-export default function Promotions() {
+function Promotions({ navigation }) {
   const [promotions, setPromotions] = useState([]);
 
   useEffect(() => {
@@ -14,14 +16,20 @@ export default function Promotions() {
     }
     loadPromotions();
   }, []);
+  
+  function handleNavigate(promo) {
+    navigation.navigate('Trending', { promo })
+  }
 
   return (
     <PromoList horizontal={true}>
       {promotions.map(promo => (
-        <Item key={promo.id}>
+        <Item key={promo.id} onPress={() => handleNavigate(promo)}>
           <PromoImage source={{uri: promo.promo_url}} />
         </Item>
       ))}
     </PromoList>
   );
 }
+
+export default withNavigation(Promotions);

@@ -58,6 +58,7 @@ export default function Wallet() {
 Wallet.navigationOptions = ({ navigation }) => ({
   headerBackTitleVisible: false,
   title: 'CARTEIRA',
+  headerTitleAlign: 'center',
   headerStyle: {
     shadowRadius: 0,
     shadowOffset: {

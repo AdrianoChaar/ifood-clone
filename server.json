@@ -153,52 +153,72 @@
     {
       "id": 1,
       "title": "Promos 4,99",
-      "promo_url": "https://static-images.ifood.com.br/image/upload/f_auto,t_high/discoveries/ifood-capas-tudo-por-10-reais.png"
+      "promo_url": "https://static-images.ifood.com.br/image/upload/f_auto,t_high/discoveries/ifood-capas-tudo-por-10-reais.png",
+      "menu_url": "https://i.ibb.co/Fx6fbCF/Frame-1-1.png"
     },
     {
       "id": 2,
       "title": "Restaurants",
-      "promo_url": "https://static-images.ifood.com.br/image/upload/f_auto,t_high/discoveries/ifood-capas-novas-super-restaurantes2.jpg"
+      "promo_url": "https://static-images.ifood.com.br/image/upload/f_auto,t_high/discoveries/ifood-capas-novas-super-restaurantes2.jpg",
+      "menu_url": "https://i.ibb.co/6bzPd9H/Frame-2.png"
     },
     {
       "id": 3,
       "title": "Ifood Selection",
-      "promo_url": "https://static-images.ifood.com.br/image/upload/f_auto,t_high/discoveries/ifood-capas-novas-selecao-ifood.jpg"
+      "promo_url": "https://static-images.ifood.com.br/image/upload/f_auto,t_high/discoveries/ifood-capas-novas-jantar10-2.jpg",
+      "menu_url": "https://i.ibb.co/bJpf9K5/Group-2.png"
     },
     {
       "id": 4,
       "title": "Free delivery",
-      "promo_url": "https://static-images.ifood.com.br/image/upload/f_auto,t_high/discoveries/ifood-capas-novas-taxa-gratis.jpg"
+      "promo_url": "https://static-images.ifood.com.br/image/upload/f_auto,t_high/discoveries/ifood-capas-novas-taxa-gratis.jpg",
+      "menu_url": "https://i.ibb.co/R4h7gFx/Frame-5.png"
     }
   ],
   "offers": [
     {
       "id": 1,
-      "title": "001 - burguer costela especial",
-      "offer_url": "https://i0.wp.com/www.tvcommercialspots.com/wp-content/uploads/2019/11/Burger-King-2-for-10-Meal-Deal.jpg?resize=640%2C360&ssl=1",
+      "title": "Burguer costela especial",
+      "offer_url": "https://img.stpu.com.br/?img=https://s3.amazonaws.com/pu-mgr/default/a0R0f00001Dp1W5EAJ/5d65947fe4b07e6da24077ad.jpg&w=710&h=462",
       "price": 18.90,
-      "newPrice": 15.50
+      "newPrice": 15.50,
+      "ingredients": "Ingredientes frescos",
+      "delivery": "Burguer King Delivery",
+      "delay": "50-60 min",
+      "icon": "store"
     },
     {
       "id": 2,
-      "title": "002 - pizza italiana especial",
+      "title": "Pizza italiana especial",
       "offer_url": "https://georgespizzasteakhouse.files.wordpress.com/2013/03/chicken_fajita_lr-1.jpg",
       "price": 18.90,
-      "newPrice": 12.30
+      "newPrice": 12.30,
+      "ingredients": "Massa tradicional",
+      "delivery": "Pizzaria Italia",
+      "delay": "35-70 min",
+      "icon": "store"
     },
     {
       "id": 3,
-      "title": "003 - combo hambumber, bata e maccafé ",
+      "title": "Combo hambumber, batata e milkshake ",
       "offer_url": "https://i2-prod.birminghammail.co.uk/incoming/article16101897.ece/ALTERNATES/s615/6_McDonalds-main-image.jpg",
       "price": 36.90,
-      "newPrice": 25.70
+      "newPrice": 25.70,
+      "ingredients": "Batata frita na hora",
+      "delivery": "Batatas & Burguers",
+      "delay": "15-70 min",
+      "icon": "store"
     },
     {
       "id": 4,
-      "title": "004 - picanha na brasa",
+      "title": "Picanha na brasa",
       "offer_url": "https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2018/06/19/carne-churrasco.jpg",
       "price": 25.90,
-      "newPrice": 18.20
+      "newPrice": 18.20,
+      "ingredients": "Carne assada na hora",
+      "delivery": "Churrascaria Brasileira",
+      "delay": "120-200 min",
+      "icon": "store"
     }
   ],
   "purchases": [
@@ -215,7 +235,7 @@
       "date": "Sex - 29 de novembro de 2019",
       "restaurant_name": "Habibs - Shopping Dom Pedro",
       "restaurant_url": "https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201801241007_74ed657c-ff28-4357-b6b2-30c53390b5db.jpg",
-      "order_number": 6302,
+      "order_number": 10700,
       "order": "15 Bib'sfiha de carne por R$0,79"
     },
     {
