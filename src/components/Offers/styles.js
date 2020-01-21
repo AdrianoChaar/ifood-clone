@@ -51,6 +51,8 @@ export const ItemInfo = styled.View`
 
 export const ItemImage = styled.Image`
   height: 120px;
+  width: 200px;
+  background: #000;
 `;
 
 export const ItemTitle = styled.Text.attrs({
