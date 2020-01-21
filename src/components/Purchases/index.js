@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 import { MaterialIcons } from '@expo/vector-icons';
 
-import { 
+import {
   Container,
   Item,
   Date,
@@ -19,10 +19,10 @@ import {
   Star,
   Menu,
   MenuButton,
-  MenuText
-  } from './styles';
+  MenuText,
+} from './styles';
 
-  import api from '../../services/api';
+import api from '../../services/api';
 
 export default function Purchases() {
   const [purchases, setPurchases] = useState([]);
@@ -34,7 +34,7 @@ export default function Purchases() {
       setPurchases(response.data);
     }
     loadPurchases();
-  }, [])
+  }, []);
 
   return (
     <Container>
@@ -44,7 +44,7 @@ export default function Purchases() {
 
           <Wrapper>
             <Restaurant>
-              <RestaurantImage source={{uri: item.restaurant_url}} />
+              <RestaurantImage source={{ uri: item.restaurant_url }} />
               <Info>
                 <Name>{item.restaurant_name}</Name>
                 <OrderNumber>Pedido entregue {item.order_number}</OrderNumber>
@@ -73,7 +73,6 @@ export default function Purchases() {
             </Menu>
           </Wrapper>
         </Item>
-
       ))}
     </Container>
   );

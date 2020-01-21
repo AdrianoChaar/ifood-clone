@@ -1,6 +1,14 @@
 import React, { useState, useEffect } from 'react';
 
-import { Container, SearchBar, CategoriesList, Title, Item, ItemImage, ItemTitle } from './styles';
+import {
+  Container,
+  SearchBar,
+  CategoriesList,
+  Title,
+  Item,
+  ItemImage,
+  ItemTitle,
+} from './styles';
 
 import Input from '../../components/Input';
 
@@ -12,14 +20,14 @@ export default function Search() {
   useEffect(() => {
     async function showCategories() {
       const response = await api.get('categories');
-      setCategories(response.data); 
+      setCategories(response.data);
     }
     showCategories();
   }, []);
 
   return (
     <Container>
-      <Input header={true} placeholder="item ou loja" />
+      <Input header placeholder="item ou loja" />
 
       <Title>Categorias</Title>
       <CategoriesList
@@ -27,7 +35,7 @@ export default function Search() {
         keyExtractor={item => String(item.id)}
         renderItem={({ item }) => (
           <Item>
-              <ItemImage source={{ uri: item.categorie_url}}/>
+            <ItemImage source={{ uri: item.categorie_url }} />
             <ItemTitle>{item.title}</ItemTitle>
           </Item>
         )}
@@ -38,4 +46,4 @@ export default function Search() {
 
 Search.navigationOptions = {
   headerShown: false,
-}
+};

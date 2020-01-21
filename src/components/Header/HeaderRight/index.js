@@ -10,7 +10,7 @@ function HeaderRight({ navigation }) {
   return (
     <Container>
       <Button onPress={() => navigation.navigate('Wallet')}>
-      <MaterialCommunityIcons name="qrcode-scan" color="#F00" size={25} />
+        <MaterialCommunityIcons name="qrcode-scan" color="#F00" size={25} />
       </Button>
     </Container>
   );

@@ -13,5 +13,5 @@ export default function PrevRequests() {
 }
 
 PrevRequests.navigationOptions = {
-  title: 'ANTERIORES'
-}
+  title: 'ANTERIORES',
+};

@@ -17,4 +17,4 @@ function HeaderLeft({ navigation }) {
   );
 }
 
-export default  withNavigation(HeaderLeft);
+export default withNavigation(HeaderLeft);

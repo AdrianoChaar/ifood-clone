@@ -2,8 +2,8 @@ import React from 'react';
 
 import { MaterialCommunityIcons, MaterialIcons } from '@expo/vector-icons';
 
-import { 
-  Container, 
+import {
+  Container,
   BackButton,
   Balance,
   Title,
@@ -13,7 +13,7 @@ import {
   Option,
   Message,
   Panel,
-  Money
+  Money,
 } from './styles';
 
 export default function Wallet() {
@@ -33,21 +33,21 @@ export default function Wallet() {
         </QrCode>
       </Panel>
 
-      <Options horizontal={true}>
+      <Options horizontal>
         <Option onPress={() => {}}>
           <MaterialIcons name="credit-card" size={35} color="#999" />
           <Message>Formas de pagamento</Message>
         </Option>
         <Option onPress={() => {}}>
-        <MaterialIcons name="card-giftcard" size={35} color="#999" />
+          <MaterialIcons name="card-giftcard" size={35} color="#999" />
           <Message>Resgatar IFood Card</Message>
         </Option>
         <Option onPress={() => {}}>
-        <MaterialIcons name="store" size={35} color="#999" />
+          <MaterialIcons name="store" size={35} color="#999" />
           <Message>Por onde usar</Message>
         </Option>
         <Option onPress={() => {}}>
-        <MaterialCommunityIcons name="help-circle" size={35} color="#999" />
+          <MaterialCommunityIcons name="help-circle" size={35} color="#999" />
           <Message>Preciso de Ajuda</Message>
         </Option>
       </Options>
@@ -63,13 +63,11 @@ Wallet.navigationOptions = ({ navigation }) => ({
     shadowRadius: 0,
     shadowOffset: {
       height: 0,
-    }
+    },
   },
   headerLeft: () => (
     <BackButton onPress={() => navigation.goBack()}>
       <MaterialIcons name="keyboard-arrow-left" color="#f00" size={35} />
     </BackButton>
-  )
+  ),
 });
-
-

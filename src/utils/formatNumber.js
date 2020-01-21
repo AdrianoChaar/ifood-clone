@@ -1,3 +1,3 @@
 import numeral from 'numeral';
 
-export const formatNumber = (number) => numeral(number).format('$,0.00');
+export const formatNumber = number => numeral(number).format('$,0.00');

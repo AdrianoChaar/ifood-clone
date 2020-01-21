@@ -1,15 +1,9 @@
 import React from 'react';
 
-import { 
-  Container,
-  Banner,
-  BackButton,
-  ExportButton
-  } from './styles';
+import { MaterialIcons, MaterialCommunityIcons } from '@expo/vector-icons';
+import { Container, Banner, BackButton, ExportButton } from './styles';
 
 import Restaurants from '../../components/Restaurants';
-
-import { MaterialIcons, MaterialCommunityIcons } from '@expo/vector-icons';
 
 export default function Trending({ navigation }) {
   return (
@@ -20,7 +14,7 @@ export default function Trending({ navigation }) {
   );
 }
 
-Trending.navigationOptions = ({navigation}) => ({
+Trending.navigationOptions = ({ navigation }) => ({
   headerLeft: () => (
     <BackButton onPress={() => navigation.goBack()}>
       <MaterialIcons name="keyboard-arrow-left" color="#F00000" size={35} />
@@ -32,4 +26,4 @@ Trending.navigationOptions = ({navigation}) => ({
       <MaterialCommunityIcons name="export-variant" color="#F00000" size={25} />
     </ExportButton>
   ),
-})
+});

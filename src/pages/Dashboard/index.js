@@ -1,8 +1,7 @@
 import React from 'react';
 
-import { Container } from './styles';
-
 import { withNavigationFocus } from 'react-navigation';
+import { Container } from './styles';
 
 import Address from '../../components/Address';
 import Input from '../../components/Input';
@@ -24,9 +23,9 @@ function Dashboard() {
       <Coupon />
       <Suggestions />
       <Promotions />
-      <Offers/>
+      <Offers />
       <Categories />
-      <Restaurants title="Restaurantes" display={true}/>
+      <Restaurants title="Restaurantes" display />
     </Container>
   );
 }
@@ -38,12 +37,8 @@ Dashboard.navigationOptions = {
   headerStyle: {
     height: 70,
   },
-    headerRight: () => (
-     <HeaderRight />
-    ),
-    headerLeft: () => (
-     <HeaderLeft />
-    ),
- }
+  headerRight: () => <HeaderRight />,
+  headerLeft: () => <HeaderLeft />,
+};
 
 export default withNavigationFocus(Dashboard);

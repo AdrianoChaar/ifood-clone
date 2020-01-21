@@ -13,13 +13,13 @@ export default function Suggestions() {
       setSuggestions(response.data);
     }
     loadSuggestions();
-  }, [])
+  }, []);
 
   return (
-    <SuggestionList horizontal={true}>
+    <SuggestionList horizontal>
       {suggestions.map(suggestion => (
         <Item key={suggestion.id}>
-          <SuggestionImage source={{uri: suggestion.sugg_url}} />
+          <SuggestionImage source={{ uri: suggestion.sugg_url }} />
           <Title>{suggestion.title}</Title>
         </Item>
       ))}

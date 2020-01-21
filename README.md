@@ -47,6 +47,17 @@ móveis.
 - [Yarn](https://yarnpkg.com/lang/en/) (recomendado)
 
 <p>
+  Inicialmente, você precisa instalar todas as dependências de funcionamento do projeto, para isso, com o terminal aberto na pasta do projeto, execute:
+</p>
+
+
+```
+  yarn
+  npm install
+```
+
+
+<p>
   Agora você precisa instalar globalmente o Json Server que vai servir como backend da aplicação, você pode instalar através
   de um dos seguintes comandos:
 </p>
@@ -99,6 +110,7 @@ móveis.
 
 ```
   yarn start
+  npm run start
 ```
 
 <p>
@@ -110,4 +122,7 @@ móveis.
   <img src="https://user-images.githubusercontent.com/54908803/72814122-4b2df580-3c43-11ea-8860-291214206a31.png" />
 </p>
 
+<p>
+  Thank you :)
+</p>
 
